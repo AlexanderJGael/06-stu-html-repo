@@ -1,0 +1,52 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-style: italic;
+    border-bottom: solid;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: solid 3px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 10px 5px 5px pink;
+    width: 400px;
+}
+
+#headshot {
+    height: 200px;
+    width: 200px;
+}
+
+.external-link {
+    background: url(/assets/external-link.png) no-repeat;
+    }
+
+li:not(a) {
+    font-weight: bold;
+}
+
+a:link {
+    color: pink
+}
+a:visited {
+    color: gray
+}
+
+footer {
+    font-size: small;
+    text-align: right;
+    border-top: solid 1px;
+    padding-top: 5px;
+}
